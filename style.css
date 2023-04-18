@@ -1,0 +1,318 @@
+header
+{
+padding:20px 20px;
+    width: 100%;
+}
+
+
+body , *{
+  font-family: 'Oswald', sans-serif;
+
+}
+
+
+
+
+
+div a:hover
+{
+font-size: 33px;
+color:black;
+}
+div h1
+{
+border-color: beige;
+border-radius: 20px;
+
+}
+
+
+
+
+div a 
+{
+text-decoration: none;
+color:#000;
+text-align: center;
+font-size: 33PX;
+}
+div
+{
+  text-align: center;
+}
+
+#the-header
+{
+height: 40px;
+
+}
+
+#images
+{
+  border-radius: 20px;
+  border-style: solid;
+  height: 450px;
+  width: 25%;
+  border-color: dimgrey;
+  border-width: 3px;
+  
+}
+
+footer
+{
+  width: 100%;
+  height: 170px;
+  background-color:lavender;
+text-align: center;
+align-items: center;
+justify-content: center;
+padding: 40px 20px;
+color: #fff;
+}
+#logo
+{
+
+  width:14px ;
+height: 14px;
+
+}
+
+
+
+/* Start Section image cars */
+
+
+.image-container {
+margin:70px 0;
+
+background-repeat: repeat;
+box-sizing: border-box;
+background-position: center;
+background-size: 500px;
+
+}
+
+ h3
+  {
+    background:#000;
+    color:#fff;
+    align-items: center;
+    justify-content: center;
+ border-radius: 7px;
+
+padding: 11px 0px;
+
+    }
+
+
+.image-container .image-holder {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 7px 29px 0px;
+  border-radius: 10px;  
+  height: 336px;
+  margin: 10px;
+  padding: 10px;
+  display:grid;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  word-break: break-all;
+  background: rgba(239, 233, 233, 0.333);
+
+  }
+.image-holder img{
+  width:220px;
+  height: 220px;
+  margin: auto;
+
+}
+
+
+
+.header{
+  display: flex;
+  flex-direction: column;
+  background-image: url(Stunning\ Cars\ \ \ 4K\ Wallpapers\ خلفيات\ سيارات\ مذهلة\ \(19\).jpg);
+  background-position: center;
+  height: 400px;
+  background-size:cover;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.header h1{
+font-weight: 700;
+font-size: 42px;
+}
+
+.header p{
+  font-weight: 400;
+  font-size: 18px;
+
+}
+
+
+/* end Section image cars */
+
+
+/* gle.html */
+.table-holder table
+{
+
+text-align: center;
+justify-content: center;
+align-items: center;
+
+}
+.table-holder table
+{
+
+text-align: center;
+justify-content: center;
+align-items: center;
+margin: auto;
+font-size: 33px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+border-collapse: separate;
+border-radius: 10px;
+
+}
+.table-holder table tr,td
+{
+border: 3px solid black;
+text-align: center;
+width:200px;
+padding: 10px;
+border-radius: 20px;
+background-color:whitesmoke;
+font-size: 27px;
+
+}
+.image-holder:hover 
+{
+border-right: 6px double  #000;
+border-top: 6px double #000;
+border-left: 6px double  #000;
+border-bottom:6px double #000;
+}
+
+
+  
+
+.footer
+{
+padding: 15px;
+color: #fff;
+  background-color:#000;
+  font-size: 25px;
+  display:grid;
+  border-radius: 10px;
+}
+.carousel-item img{
+  border: 4px solid #000;
+  margin: auto;
+  border-radius: 22px;
+  margin-top: 70px;
+  width: 800px;
+  height: 450px;
+}
+
+.main 
+{
+margin: 4px;
+border-radius: 33px;
+width: 15%;
+height: 53%;
+background: rgba(1, 1, 1, 0.4);
+position:absolute;
+margin-left: 0px;
+margin-top: 0px;
+display: flex;
+flex-direction: column;
+padding: 10px;
+align-items: center;
+text-align: center;
+justify-content: center;
+}
+#link
+{
+font-size: 33px;
+  color: #fff;
+}
+#div-link
+{
+width: 100%;
+background: rgba(62, 58, 58, 0.4);
+margin: 2px;
+
+}
+#link:hover
+{
+
+  color: #000;
+}
+#div-link:hover #link
+{
+
+  color: #000;
+
+}
+#search-logo
+{
+width: 20px;
+height: 20px;
+float: left;
+margin-left: -30px;
+
+}
+.div-logo
+{
+align-items: center;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  
+}
+#location-logo
+{
+  width: 16px;
+  height: 16px;
+  float: left;
+  margin-left: -30px;
+
+}
+.div-location
+{
+  align-items: center;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  
+}
+.image-holder img{
+
+  margin-top: 0px;
+
+}
+.image-holder h3{
+  width:100%;
+
+}
+#img img
+{
+border-radius: 25px;
+  width: 100%;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+#img
+{
+align-items: center;
+justify-content: center;
+text-align: center;
+}
